@@ -1,5 +1,95 @@
+/* impostazioni generali */
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+/* header */
+header{
+  background: #0d325a;
+  height: 100px;
+  width: 100%;
+  color: white;
+}
+header::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+nav{
+  height: auto;
+}
+.div-nav-left img{
+  float: left;
+  display: inline-block;
+  padding: 50px 70px 0 100px;
+}
+.div-nav-left ul li{
+  display: inline-block;
+  text-align: center;
+  float: left;
+  font-size: 12px;
+  padding: 50px 10px 0 0;
+}
+.div-nav-right ul li{
+  display: inline-block;
+  text-align: center;
+  /* float: right; */
+  font-size: 12px;
+  padding: 50px 0px 0px 10px;
+}
+.div-nav-right ul::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.div-nav-right ul{
+  padding-right: 100px;
+  float: right;
+}
+button{
+  cursor: pointer;
+}
+/* main */
+main::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.blue::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.blue-sx{
+  float: left;
+  color: white;
+  padding: 50px 70px 0 100px;
+  width: 100%;
+}
+.div-h1{
+  width: 50%;
+  padding-bottom: 30px;
+}
+h1{
+  font-size: 45px;
+  line-height: 55px;
+  letter-spacing: 2px;
+}
+.blue{
+  background-image: url(img/sfondo-blue.JPG);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+}
+/*.blue-dx{
+  background-image: url(img/sfondo-blue.JPG);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 50%;
+  float: left;
+}*/
