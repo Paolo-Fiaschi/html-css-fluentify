@@ -108,7 +108,7 @@ main::after{
 .blue-contenuto{
   float: left;
   color: white;
-  padding: 50px 70px 50px 100px;
+  padding: 50px 70px 80px 100px;
   width: 100%;
 }
 .div-h1{
@@ -126,6 +126,94 @@ h1{
   background-repeat: no-repeat;
   width: 100%;
 }
+
+/* section proposte */
+.proposte{
+  border-bottom: 2px solid #f9f9f9;
+}
+.titoli{
+  float: left;
+  background-color: #f9f9f9;
+  width: 100%;
+  padding: 40px;
+}
+.proposte::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.titoli h3{
+  text-align: center;
+  margin-top: 8px;
+  font-size: 24px;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+.titoli h4{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  color: #999;
+}
+.offerte1,
+.offerte2,
+.offerte3{
+  float: left;
+  width: 31.3%;
+  text-align: center;
+  padding: 20px 20px 55px 64px;
+}
+hr{
+  width: 35px;
+  height: 2px;
+  margin: 10px auto;
+}
+.offerte1 img{
+  padding-bottom: 60px;
+}
+.offerte1 h3{
+  font-size: 23px;
+  min-height: 50px;
+  color: #7fb802;
+}
+.offerte1 p{
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 25px;
+  color: #999;
+  padding: 0 30px;
+}
+.offerte2 img{
+  padding-bottom: 70px;
+}
+.offerte2 h3{
+  font-size: 23px;
+  min-height: 50px;
+  color: #7fb802;
+}
+.offerte2 p{
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 25px;
+  color: #999;
+  padding: 0 30px;
+}
+.offerte3 img{
+  padding-bottom: 60px;
+}
+.offerte3 h3{
+  font-size: 23px;
+  min-height: 50px;
+  color: #7fb802;
+}
+.offerte3 p{
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 25px;
+  color: #999;
+  padding: 0 30px;
+}
+
 /* section blue */
 .blue{
   background: #0d325a;
