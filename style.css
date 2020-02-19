@@ -64,14 +64,24 @@ text-decoration: none;
 button{
   cursor: pointer;
 }
-button{
+.bottone1{
+  font-size: 11px;
+  border-radius: 5px;
+  padding: 8px 10px;
+  color: #fff;
+  border-color: #4e8cb6;
+  background-color: #0d325a;
+  vertical-align: middle;
+}
+.bottone2{
   background-color: #7fb802;
   font-size: 11px;
   border-radius: 5px;
-  font-weight: 700;
   padding: 8px 10px;
   color: white;
+  vertical-align: middle;
 }
+
 /* main */
 main::after{
   content: "";
@@ -85,6 +95,14 @@ main::after{
   content: "";
   display: table;
   clear: both;
+}
+.bottone3{
+  background-color: #7fb802;
+  font-size: 11px;
+  border-radius: 5px;
+  padding: 15px 30px;
+  color: white;
+  vertical-align: middle;
 }
 
 .blue-contenuto{
@@ -136,6 +154,11 @@ h1{
   letter-spacing: 2px;
   padding-bottom: 30px;
 }
+.blue-div-left a,
+.blue-div-left a:link,
+.blue-div-left a:visited{
+color: #98c8f8;
+}
 .blue-div-right{
   float: right;
   width: 50%;
@@ -152,6 +175,15 @@ h1{
   background-repeat: no-repeat;
   width: 100%;
 }
+.bottone4{
+  background-color: #7fb802;
+  font-size: 11px;
+  border-radius: 5px;
+  padding: 15px 50px;
+  color: white;
+  vertical-align: middle;
+}
+
 .div-h2{
   float: left;
   color: white;
@@ -171,6 +203,16 @@ h1{
   background-color: #0f335a;
   color: white;
 }
+.footer-div-conteiner1 a,
+.footer-div-conteiner1 a:link,
+.footer-div-conteiner1 a:visited{
+color: #f8b71c;
+text-decoration: none;
+}
+.footer-div-conteiner1 a:hover{
+  text-decoration: underline;
+}
+
 .footer-div{
   float: left;
   padding: 40px 80px 30px 103px;
@@ -180,6 +222,17 @@ h1{
   font-size: 30px;
   padding-bottom: 5px;
 }
+.footer-div-conteiner2 a,
+.footer-div-conteiner2 a:link,
+.footer-div-conteiner2 a:visited{
+color: white;
+opacity: 0.5;
+text-decoration: none;
+}
+.footer-div-conteiner2 a:hover{
+  text-decoration: underline;
+}
+
 h4{
   font-size: 18px;
   font-weight: 300;
